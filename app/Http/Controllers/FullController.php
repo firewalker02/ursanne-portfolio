@@ -20,4 +20,8 @@ class FullController extends Controller
         return \view('home');
     }
 
+    public function project(){
+        return \view('projects');
+    }
+
 }

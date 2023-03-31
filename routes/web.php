@@ -18,4 +18,4 @@ Route::get('/about-me', [FullController::class,'aboutMe' ])->name('aboutMe');
 Route::get('/resume',[FullController::class, 'resume'])->name('resume');
 Route::get('/contact',[FullController::class, 'contact'])->name('contact');
 Route::get('/otherhome',[FullController::class, 'otherHome'])->name('otherHome');
-
+Route::get('/projects',[FullController::class, 'project'])->name('project');

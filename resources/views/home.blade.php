@@ -77,16 +77,16 @@
 								<i class="fas fa-cogs fa-fw me-2"></i>More Pages
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="project.html">Project Page</a></li>
-								<li><a class="dropdown-item" href="blog-home.html">Blog Home 1</a></li>
-								<li><a class="dropdown-item" href="blog-home-alt.html">Blog Home 2</a></li>
-								<li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+								<li><a class="dropdown-item" href="#">Education</a></li>
+								<li><a class="dropdown-item" href="#">Experience</a></li>
+								<!-- <li><a class="dropdown-item" href="blog-home-alt.html">Blog Home 2</a></li>
+								<li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li> -->
 							</ul>
 						</li>
 					</ul>
 					
 					<div class="my-2">
-						<a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
+						<a class="btn btn-primary" href="#" target="_blank"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
 					</div>
 					
 	
@@ -137,17 +137,18 @@
 							<div class="item-icon"><i class="fab fa-js-square"></i></div>
 							<h3 class="item-title"> JavaScript</h3>
 							<div class="item-desc">
-								<li> Skilled in designing responsive web pages using JavaScript. Want to know more? Check out my JavaScript Project <a class="theme-link" href="#" target="_blank">Game Color Ball App</a> </li>
+								 Skilled in designing responsive web pages using JavaScript, and possess good knowledge of DOM. Want to know more? Check out my javaScript github repository at 
+								 <li class="list-inline-item"><a href="https://github.com/firewalker02/Code-breaker"><i class="fab fa-github-alt fa-fw"></i> code-Breaker</a></li>
 							</div>
 						</div><!--//item-inner-->
 					</div><!--//item-->
-					<!-- <div class="item col-6 col-lg-3">
+					<div class="item col-6 col-lg-3">
 						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-angular me-2"></i><i class="fab fa-react me-2"></i><i class="fab fa-vuejs"></i></div>
-							<h3 class="item-title">Angular, React &amp;  Vue</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
-						</div>//item-inner
-					</div>//item -->
+							<div class="item-icon"><i class="fas fa-database"></i></div>
+							<h3 class="item-title">MySQL&amp; PHPMYADMIN</h3>
+							<div class="item-desc">Skilled in writing SQL queries, creating SQL tables and administering databases using PHPMyAdmin</div>
+                    </div>
+					</div><!--//item -->
 					
 					<div class="item col-6 col-lg-3">
 						<div class="item-inner">
@@ -173,7 +174,7 @@
 							<div class="item-icon"><i class="fab fa-php"></i> <i class="fab fa-laravel"></i></div>
 							<h3 class="item-title">PHP &amp;&nbsp Laravel</h3>
 							<div class="item-desc">Proificient in buiding sustainable and extensible web appications using PHP laravel framework. Want to know more? Check out this website project and its github repository respectively.
-								<li class='list-inline-item'><a class="theme-link" href="voteapp.toupesu.com" target="_blank"><i class="fas fa-globe fa-fw"></i>voteapp</a> </li>
+								<li class='list-inline-item'><a class="theme-link" href="https://voteapp.toupesu.com" target="_blank"><i class="fas fa-globe fa-fw"></i>voteapp</a> </li>
 								<li class="list-inline-item"> <a class="theme-link" href="https://github.com/firewalker02/voteapp-webVersion" target="_blank"><i class="fab fa-github-alt fa-fw"></i>github-voteapp</a></li>
 							</div>
 						</div><!--//item-inner-->
@@ -190,7 +191,7 @@
 							<div class="item-icon"><i class="fab fa-html5 me-2"></i><i class="fab fa-css3-alt me-2"></i><i class="fab fa-bootstrap"></i></div>
 							<h3 class="item-title">HTML,&nbspCSS&amp;&nbspBootstrap</h3>
 							<div class="item-desc">Skilled in building highly-scalable web pages using html and CSS.Want to know more? check out this project at 
-								<li class='list-inline item'><a class="theme-link" href="https://voteapp.toupesu.com/" target="_blank"><i class="fab fa-github-alt fa-fw"></i> voteapp</a>  </li>
+								<li class='list-inline-item'><a href="https://voteapp.toupesu.com/"><i class="fab fa-github-alt fa-fw"></i>voteapp</a></li>
 							
 							</div>
 						</div><!--//item-inner-->
@@ -202,7 +203,7 @@
 							<h3 class="item-title">Java&amp;&nbspAndroid Studio </h3>
 							<div class="item-desc">Highly proficient in writing sustainable and executable code in java Programming language. Interested to know more?Check out the following github repositories harbouring java projects. 
 								
-							<li class="list-inline-item"><a href= "https://github.com/firewalker02/General-Projects/tree/main/HOSPITAL%20DATABASE"><i class="fab fa-github-alt fa-fw"></i> voteapp-Android version</a></li>
+							<li class="list-inline-item"><a href= "https://github.com/firewalker02/voteapp-Android-version"><i class="fab fa-github-alt fa-fw"></i> voteapp-Android version</a></li>
 							<li class="list-inline-item"><a href="https://github.com/firewalker02/Mobile-Projects/tree/main/VendingMachine%20Project"><i class="fab fa-github-alt fa-fw"></i> vendingMachine</a></li>
 							<li class="list-inline-item"><a href="https://github.com/firewalker02/Mobile-Projects/tree/main/AndroidStudioProjects"><i class="fab fa-github-alt fa-fw"></i> GameCountryApp</a></li>
 							<li class="list-inline-item"><a href= "https://github.com/UTSCCSCC01/eecs3311-group-g"><i class="fab fa-github-alt fa-fw"></i> Country indicator Modelling System</a></li>
@@ -220,19 +221,27 @@
 							<div class="item-desc">Experienced in C programming on a overall basis.Implement simple databases with similar functionalities as SQL databases using C structures. 
 								
 							Interested in knowing more?Check out code sample at  <li class="list-inline-item"><a href= "https://github.com/firewalker02/General-Projects/tree/main/SIMPLE%20DATABASE%20FITNESS%20CLUB"><i class="fab fa-github-alt fa-fw"></i> Fitness Database System</a></li> </div>
-						</div>//item-inner
-					</div>//item
+						</div>
+					</div>
 				</div><!--//row-->
-				<div class="text-center py-3"><a href="services.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>Services &amp; Pricing
+				<!-- <div class="text-center py-3"><a href="services.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>Services &amp; Pricing
 					
-				</a></div>
+				</a></div> -->
 				
 			</div><!--//container-->
 		</section>
 		
 		<div class="container"><hr></div>
 		
-		<section class="testimonials-section p-3 p-lg-5">
+		
+		<!-- TESTIMONIALS SECTION -->
+
+		
+		 
+		
+		<!-- <div class="container"><hr></div> -->
+		
+		<!-- <section class="testimonials-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-5">Testimonials</h2>
 				
@@ -245,124 +254,43 @@
 										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
 									</blockquote>
 									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
+								
+								</div> -->
+								<!--//quote-holder-->
+								
+								<!-- <div class="source-holder">
 									<div class="source-profile">
-										<img src="assets_1/images/clients/profile-1.png" alt="image"/>
+										<img src="assets/images/clients/profile-1.png" alt="image"/>
 									</div>
 									<div class="meta">
 										<div class="name">Brandon James</div>
 										<div class="info">Project Manager, Google</div>
 									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
+								</div> -->
+							
+								<!-- </div> -->
+							<!--//item-inner-->
 						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets_1/images/clients/profile-2.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Kate Sanders</div>
-										<div class="info">Project Manager, Uber</div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
+							<!-- </div> -->
+						<!--//item-->
 						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets_1/images/clients/profile-3.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">James Lee</div>
-										<div class="info">Product Manager, Amazon</div>
-									</div>
-								</div>
-						    </div><!--//item-inner-->
-						</div><!--//item-->
 						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets_1/images/clients/profile-4.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">James Lee</div>
-										<div class="info">Product Manager, Amazon</div>
-									</div>
-								</div>
-						    </div><!--//item-inner-->
-						</div><!--//item-->
 						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets_1/images/clients/profile-5.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Olivia White</div>
-										<div class="info">Product Manager, Dropbox</div>
-									</div>
-								</div>
-						    </div><!--//item-inner-->
-						</div><!--//item-->
+					
 						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets_1/images/clients/profile-6.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Samuel Reyes</div>
-										<div class="info">CTO, StartupHub</div>
-									</div>
-								</div>
-						    </div><!--//item-inner-->
-						</div><!--//item-->
-					</div><!--//testimonial-carousel-->	
-				</div><!--//testimonial-carousel-container-->	
-			</div><!--//container-->
-		</section><!--//testimonials-section-->
+				
+						
+						
+					<!-- </div> -->
+					<!--//testimonial-carousel-->	
+				<!-- </div> -->
+				<!--//testimonial-carousel-container-->	
+			<!-- </div> -->
+			<!--//container-->
+		<!-- </section> -->
+		<!--//testimonials-section-->
 		
-		<div class="container"><hr></div>
+		<!-- <div class="container"><hr></div> -->
 		
 		<section class="featured-section p-3 p-lg-5">
 			<div class="container">
@@ -372,21 +300,22 @@
 						<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets_1/images/project/project-1.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/voteapp-web.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-										<p class="card-text"><small class="text-muted">Client: Google</small></p>
+										<h5 class="card-title"><a href="https://voteapp.toupesu.com" class="theme-link">VoteApp Project-Web version</a></h5>
+										<p class="card-text">Developed a web app voting system enabling the client to create its own polls, and share for other people to vote, using PHP laravel framework.</p>
+										<p class="card-text"><small class="text-muted">Client: Toupesu</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="theme-link" href="https://github.com/firewalker02/voteapp-webVersion"> View Web Page</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://voteapp.toupesu.com">
+										<i class="fas fa-eye me-2"></i>Tech used: PHP laravel frameWork,and Bootstrap.
+										
 									</a>
 								</div>
 							</div><!--//link-mask-->
@@ -396,31 +325,32 @@
 						<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets_1/images/project/project-2.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/voteapp-Android.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Dropbox</small></p>
+										<h5 class="card-title"><a href="project.html" class="theme-link">voteApp Project-Android version</a></h5>
+										<p class="card-text">Developing an Android voting app enabling the client to create voting polls and share to other users to vote, using java and Android Studio</p>
+										<p class="card-text"><small class="text-muted">Client: Toupesu</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class=" theme-link link-mask-link" href="https://github.com/firewalker02/voteapp-Android-version"> View Github repository</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://github.com/firewalker02/voteapp-Android-version">
+										<i class="fas fa-eye me-2"></i>View Github repository
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="col-md-6 mb-5">
+
+					<!-- <div class="col-md-6 mb-5">
 						<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets_1/images/project/project-3.jpg" class="card-img" alt="image">
+									<img src="assets/images/project/project-3.jpg" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
@@ -436,15 +366,24 @@
 									<a class="btn btn-secondary" href="project.html">
 										<i class="fas fa-eye me-2"></i>View Case Study
 									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-6 mb-5">
+								</div> -->
+							
+								<!-- </div> -->
+							<!--//link-mask-->
+						
+							<!-- </div> -->
+						
+						<!--//card-->
+					
+						<!-- </div> -->
+					
+					<!--//col-->
+
+					<!-- <div class="col-md-6 mb-5">
 						<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets_1/images/project/project-4.jpg" class="card-img" alt="image">
+									<img src="assets/images/project/project-4.jpg" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
@@ -460,25 +399,32 @@
 									<a class="btn btn-secondary" href="project.html">
 										<i class="fas fa-eye me-2"></i>View Case Study
 									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-				</div><!--//row-->
-				<div class="text-center py-3"><a href="portfolio.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>View Portfolio</a></div>
+								</div> -->
+
+							<!-- </div> -->
+							<!--//link-mask-->
+						<!-- </div> -->
+						<!--//card-->
+					<!-- </div> -->
+					<!--//col-->
+				</div>
+				<p class="color-green text-center">Interested in knowing more of my projects? View more projects by clicking below</p> 
+				<!--//row-->
+				<div class="text-center py-3"><a href="#" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>View Projects</a></div>
 				
 			</div><!--//container-->
 		</section><!--//featured-section-->
 		
 		<div class="container"><hr></div>
 		
-		<section class="latest-blog-section p-3 p-lg-5">
+		<!-- BEGINNNING OF SECTION BLOG -->
+		<!-- <section class="latest-blog-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-5">Latest Blog Posts</h2>
 				<div class="row">
 					<div class="col-md-4 mb-5">
 						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets_1/images/blog/blog-post-thumb-card-1.jpg" alt="image">
+							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-1.jpg" alt="image">
 							<div class="card-body">
 								<h5 class="card-title"><a class="theme-link" href="blog-post.html">Top 3 JavaScript Frameworks</a></h5>
 								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
@@ -487,12 +433,18 @@
 							</div>
 							<div class="card-footer">
 								<small class="text-muted">Published 2 days ago</small>
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-4 mb-5">
+							</div> -->
+						
+							<!-- </div> -->
+						<!--//card-->
+					
+					<!-- </div> -->
+					
+					<!--//col-->
+					
+					<!-- <div class="col-md-4 mb-5">
 						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets_1/images/blog/blog-post-thumb-card-2.jpg" alt="image">
+							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-2.jpg" alt="image">
 							<div class="card-body">
 								<h5 class="card-title"><a class="theme-link" href="blog-post.html">About Remote Working</a></h5>
 								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
@@ -501,12 +453,17 @@
 							<div class="card-footer">
 								<small class="text-muted">Published a week ago</small>
 								
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-4 mb-5">
+							</div> -->
+						
+						<!-- </div> -->
+						<!--//card-->
+					
+						<!-- </div> -->
+					<!--//col-->
+					
+					<!-- <div class="col-md-4 mb-5">
 						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets_1/images/blog/blog-post-thumb-card-3.jpg" alt="image">
+							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-3.jpg" alt="image">
 							<div class="card-body">
 								<h5 class="card-title"><a class="theme-link" href="blog-post.html">A Guide to Becoming a Full-Stack Developer</a></h5>
 								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
@@ -514,20 +471,33 @@
 							</div>
 							<div class="card-footer">
 								<small class="text-muted">Published 3 weeks ago</small>
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-				</div><!--//row-->
-				<div class="text-center py-3"><a href="blog-home.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>View Blog</a></div>
-			</div><!--//container-->
+							</div> -->
+						
+						<!-- </div> -->
+						<!--//card-->
+					
+						<!-- </div> -->
+					    <!--//col-->
+				
+					<!-- </div> -->
+				    <!--//row-->
+				<!-- <div class="text-center py-3"><a href="blog-home.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>View Blog</a></div>
+			</div> -->
 			
-		</section><!--//latest-blog-section-->
+			<!--//container-->
+			
+		<!-- </section> -->
+		
+		<!--//latest-blog-section-->
+
+		<!-- END OF SECTION BLOG -->
 
 		<footer class="footer text-center py-4">
-			<small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+			<small class="copyright"> Copyright &copy; <a href="#" target="_blank">Ursanne Kengne</a></small>
 		</footer>
 		
 	</div><!--//main-wrapper-->
+
 
 	<!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->  
 
