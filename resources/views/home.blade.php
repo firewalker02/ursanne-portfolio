@@ -146,7 +146,7 @@
 						<div class="item-inner">
 							<div class="item-icon"><i class="fas fa-database"></i></div>
 							<h3 class="item-title">MySQL&amp; PHPMYADMIN</h3>
-							<div class="item-desc">Skilled in writing SQL queries, creating SQL tables and administering databases using PHPMyAdmin</div>
+							<div class="item-desc">Skilled in writing SQL queries, creating SQL tables and administering databases using PHPMyAdmin.Have good knowledge of data Structures and proficient in applying the Concept of data Structures in complex systems.</div>
                     </div>
 					</div><!--//item -->
 					
@@ -297,7 +297,9 @@
 				<h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
 				<div class="row">
 					<div class="col-md-6 mb-5">
-						<div class="card project-card">
+					
+					<!-- VOTEAPP ANDROID VERSION -->
+					<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
 									<img src="assets_1/images/voteapp-web.png" class="card-img" alt="image">
@@ -313,14 +315,20 @@
 							<div class="link-mask">
 								<a class="theme-link" href="https://github.com/firewalker02/voteapp-webVersion"> View Web Page</a>
 								<div class="link-mask-text">
-									<a class="btn btn-primary" href="https://voteapp.toupesu.com">
-										<i class="fas fa-eye me-2"></i>Tech used: PHP laravel frameWork,and Bootstrap.
-										
+								<a class="btn btn-primary btn-lg" href="https://voteapp.toupesu.com" style="padding: 44px 45px;">
+										<i class="fas fa-eye me-2"></i> View Page.Tech used: PHP laravel frameWork, Alpine.js and Bootstrap.
+									</a>
+                                    <br> <br><br>
+                                    <a class="btn btn-primary" href="https://github.com/firewalker02/voteapp-webVersion">
+										<i class="fab fa-github me-2"></i> View GitHub Repository
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
+					
+					<!-- VOTEAPP ANDROID VERSION -->
+					
 					<div class="col-md-6 mb-5">	
 						<div class="card project-card">
 							<div class="row no-gutters">
@@ -329,7 +337,7 @@
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">voteApp Project-Android version</a></h5>
+										<h5 class="card-title"><a href="https://github.com/firewalker02/voteapp-Android-version"class="theme-link">voteApp Project-Android version</a></h5>
 										<p class="card-text">Developing an Android voting app enabling the client to create voting polls and share to other users to vote, using java and Android Studio</p>
 										<p class="card-text"><small class="text-muted">Client: Toupesu</small></p>
 									</div>
@@ -410,7 +418,7 @@
 				</div>
 				<p class="color-green text-center">Interested in knowing more of my projects? View more projects by clicking below</p> 
 				<!--//row-->
-				<div class="text-center py-3"><a href="#" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>View Projects</a></div>
+				<div class="text-center py-3"><a href="{{route('project')}}" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right me-2"></i>View Projects</a></div>
 				
 			</div><!--//container-->
 		</section><!--//featured-section-->
@@ -532,7 +540,10 @@
 	<script src="assets_1/plugins/tiny-slider/min/tiny-slider.js"></script>
 	<script src="assets_1/js/testimonials.js"></script>
 
-	<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+
+	
+    
+	<!-- Style Switcher (AT THE CHOICE OF GUEST'S EXPERIENCE) -->
 	<script src="assets_1/js/demo/style-switcher.js"></script>
 	
 	<!-- Dark Mode -->

@@ -18,7 +18,7 @@
     <script defer src="assets_1/fontawesome/js/all.js"></script>
     
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="assets_1/plugins/tiny-slider/tiny-slider.css">
+    <!-- <link rel="stylesheet" href="assets_1/plugins/tiny-slider/tiny-slider.css"> -->
 
 	<!-- Theme CSS -->  
 	<!-- <link id="theme-style" rel="stylesheet" href="assets_1/css/theme-1.css"> -->
@@ -112,10 +112,10 @@
 		    <div class="container text-center single-col-max-width">
 			    <h2 class="heading">Portfolio</h2>
 			    <div class="intro">
-			    <p>Welcome to my online portfolio. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. I'm taking on freelance work at the moment. Want some help building your software?</p>
+			    <p>Welcome to my online projects.These projects are comprised of front-end, back-end and full-stack projects to showcase my software skills. Want some help building your software?</p>
 			    
 			    </div>
-			    <a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
+			    <a class="btn btn-primary" href="#" target="_blank"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
 			    
 			    
 		    </div><!--//container-->
@@ -125,207 +125,283 @@
 			    <div class="text-center">
 				    <ul id="filters" class="filters mb-5 mx-auto   ps-0">
 		                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".webapp">We App</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".webapp">Full Stack</li>
 		                <li class="type  mb-3 mb-lg-0" data-filter=".mobileapp">Mobile App</li>
 		                <li class="type  mb-3 mb-lg-0" data-filter=".frontend">Frontend</li>
 		                <li class="type  mb-3 mb-lg-0" data-filter=".backend">Backend</li>
 		            </ul><!--//filters-->
 			    </div>
 	            
+                <!-- CODE BREAKER -->
 			    <div class="project-cards row isotope">
-					<div class="isotope-item col-md-6 mb-5 mobileapp frontend">
+					<div class="isotope-item col-md-6 mb-5 frontend">
 						<div class="card project-card">
 							<div class="row">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-1.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/code-breaker.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-										<p class="card-text"><small class="text-muted">Client: Google</small></p>
+										<h5 class="card-title"><a href="https://github.com/firewalker02/Code-breaker" class="theme-link">Code-Breaker</a></h5>
+										<p class="card-text">Designed dynamically a ball game app where a player has to guess correctly a series of balls with different users. The player has 8 attempts within which the correct series has to be found, otherwise the player looses the game. This project was implemented using HTML, CSS and JavaScript </p>
+										<p class="card-text"><small class="text-muted">Curriculum Project</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="link-mask-link" href="https://github.com/firewalker02/Code-breaker"> View Github Repository</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://github.com/firewalker02/Code-breaker">
+										<i class="fas fa-eye me-2"></i>View GitHub Repository.Made with HTML,CSS and JS
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 webapp frontend">	
+					
+                        <!-- GAME COUNTRY APP -->
+
+					<div class="isotope-item col-md-6 mb-5 mobileapp backend">
 						<div class="card project-card">
 							<div class="row">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-2.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/game-app.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Dropbox</small></p>
+										<h5 class="card-title"><a href="https://github.com/firewalker02/Mobile-Projects/tree/main/AndroidStudioProjects/Caps" class="theme-link">GameCountry App</a></h5>
+										<p class="card-text">Designed and coded a mobile application for country capital guess game where a user has ten tries in which to guess a capital of country or territory based on its name alone.
+Used Object Oriented Design methodology and applied Java Design Patterns. 
+ </p>
+										<p class="card-text"><small class="text-muted">Curriculum Project</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="link-mask-link" href="https://github.com/firewalker02/Mobile-Projects/tree/main/AndroidStudioProjects/Caps"> View GitHub Repository</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://github.com/firewalker02/Mobile-Projects/tree/main/AndroidStudioProjects/Caps">
+										<i class="fas fa-eye me-2"></i>View Github Repo.Coded with Java and AndroidStudio
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 mobileapp">
+					
+                    <!-- MORTGAGE CALCULATOR APP -->
+
+                    <div class="isotope-item col-md-6 mb-5 mobileapp backend">
 						<div class="card project-card">
 							<div class="row">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-3.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/mortgage-calc.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Google</small></p>
+										<h5 class="card-title"><a href="https://github.com/firewalker02/Mobile-Projects/tree/main/AndroidStudioProjects/MCalcPro" class="theme-link">Mortgage Calculator App</a></h5>
+										<p class="card-text">Designed and coded a mortgage calculator app which calculates the mortgage interest of a lender on a recurring basis, based on conventional formula.
+Used Object Oriented Design methodology and MVC architectural design pattern. 
+ </p>
+										<p class="card-text"><small class="text-muted">Curriculum Project</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="link-mask-link" href="https://github.com/firewalker02/Mobile-Projects/tree/main/AndroidStudioProjects/MCalcPro">
+                                    View GitHub repository
+                                </a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://github.com/firewalker02/Mobile-Projects/tree/main/AndroidStudioProjects/MCalcPro">
+										<i class="fas fa-eye me-2"></i>View Github repo.Coded with Java and AndroidStudio
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 webapp backend">
+
+                    <!-- HOSPITAL SYSTEM SIMULATOR -->
+					<div class="isotope-item col-md-6 mb-5 backend">
 						<div class="card project-card">
 							<div class="row">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-4.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/hospital-system.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Startup Hub</small></p>
+										<h5 class="card-title"><a href="https://github.com/firewalker02/General-Projects/tree/main/HOSPITAL%20DATABASE" class="theme-link">Hospital System Simulator</a></h5>
+										<p class="card-text">Designed and coded a hospital system to manage basic hospital functionalities such as hiring volunteers, physicians, renumering hospital personnel and many more.
+Used Object Oriented Design methodology and applied Java Design Patterns. 
+ </p>
+										<p class="card-text"><small class="text-muted">Curriculum Project</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="link-mask-link" href="https://github.com/firewalker02/General-Projects/tree/main/HOSPITAL%20DATABASE"> View Github Repository</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://github.com/firewalker02/General-Projects/tree/main/HOSPITAL%20DATABASE">
+										<i class="fas fa-eye me-2"></i>View GitHub Repo. Implemented with Java and EclipseIDE
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 mobileapp frontend">
+
+                    <!-- COUNTRY INDICATOR MODELLING SYSTEM -->
+
+					<div class="isotope-item col-md-6 mb-5 backend">
 						<div class="card project-card">
 							<div class="row">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-5.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/Indicator-system.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: SalesForce</small></p>
+										<h5 class="card-title"><a href="https://github.com/UTSCCSCC01/eecs3311-group-g" class="theme-link">Indicator Modelling System</a></h5>
+										<p class="card-text">Implemented a Country Indicator Modelling System to retrieve data indicators between countries from World’s data Restful API to model and compare global development among them for humanitarian purposes.
+Used Object Oriented Design methodology, Restful API tools and Applied Java Patterns.
+ </p>
+										<p class="card-text"><small class="text-muted">Curriculum Group Project</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="link-mask-link" href="https://github.com/UTSCCSCC01/eecs3311-group-g">View GitHub Repository</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://github.com/UTSCCSCC01/eecs3311-group-g">
+										<i class="fas fa-eye me-2"></i>View Github Repo.Coded using Java and EclipseIDE
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 webapp backend">
+
+                             <!-- VENDING MACHINE SIMULATOR -->
+
+					<div class="isotope-item col-md-6 mb-5 backend">
 						<div class="card project-card">
 							<div class="row">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-6.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/vending-Machine.jpg" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Uber</small></p>
+										<h5 class="card-title"><a href="https://github.com/firewalker02/Mobile-Projects/tree/main/VendingMachine%20Project" class="theme-link">VendingMachine Simulator</a></h5>
+										<p class="card-text">Designed a vending machine simulator. This is to select item and get price, accept 
+bills/coins, dispense items purchased and return change and refund when cancelling the 
+request. The simulator also handles some exception: an item is Sold out, an item is Not 
+fully paid, there is Not enough change.
+Used Object Oriented Design methodology and applied Java Design Patterns. 
+ </p>
+										<p class="card-text"><small class="text-muted">Personal Project</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="link-mask-link" href="https://github.com/firewalker02/Mobile-Projects/tree/main/VendingMachine%20Project">View GitHub Repository</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://github.com/firewalker02/Mobile-Projects/tree/main/VendingMachine%20Project">
+										<i class="fas fa-eye me-2"></i>View GitHub Repo.Implemented with Java and Eclipse
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 webapp frontend backend">
+					
+                    <!-- FITNESS SYSTEM SIMULATOR -->
+                    <div class="isotope-item col-md-6 mb-5 backend">
 						<div class="card project-card">
 							<div class="row">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-7.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/fitness-system.jpg" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Lyft</small></p>
+										<h5 class="card-title"><a href="https://github.com/firewalker02/General-Projects/tree/main/SIMPLE%20DATABASE%20FITNESS%20CLUB" class="theme-link">Fitness System Simulator</a></h5>
+										<p class="card-text">Developed a fitness database system where each member has a profile with vital information. This system helps to track the health progress of each customer after a period of time by calculating the BMI on a predefined frequency.
+	Used C programming language and implemented sorting algorithms.
+ </p>
+										<p class="card-text"><small class="text-muted">Personal Project</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="link-mask-link" href="https://github.com/firewalker02/General-Projects/tree/main/SIMPLE%20DATABASE%20FITNESS%20CLUB">View GitHub Repository</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary" href="https://github.com/firewalker02/General-Projects/tree/main/SIMPLE%20DATABASE%20FITNESS%20CLUB">
+										<i class="fas fa-eye me-2"></i>View GitHub Repo.Implemented using C structures
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-					<div class="isotope-item col-md-6 mb-5 webapp frontend">
+				
+                           <!-- VOTEAPP-WEB VERSION -->
+
+
+                    <div class="isotope-item col-md-6 mb-5 webapp">
 						<div class="card project-card">
 							<div class="row">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets/images/project/project-8.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/voteapp-web.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: GitLab</small></p>
+										<h5 class="card-title"><a href="https://voteapp.toupesu.com" class="theme-link">VoteApp Project-Web version</a></h5>
+										<p class="card-text">Developed a web app voting system enabling the client to create its own polls, and share for other people to vote, using PHP laravel framework.</p>
+ </p>
+										<p class="card-text"><small class="text-muted">Client: Toupesu</small></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
+								<a class="link-mask-link" href="https://voteapp.toupesu.com">View Web Page</a>
 								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye me-2"></i>View Case Study
+									<a class="btn btn-primary btn-lg" href="https://voteapp.toupesu.com" style="padding: 44px 45px;">
+										<i class="fas fa-eye me-2"></i> View Page.Tech used: PHP laravel frameWork, Alpine.js and Bootstrap.
+									</a>
+                                    <br> <br><br>
+                                    <a class="btn btn-primary" href="https://github.com/firewalker02/voteapp-webVersion">
+										<i class="fab fa-github me-2"></i> View GitHub Repository
 									</a>
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
-				</div><!--//row-->
+               
+                
+                <!-- VOTEAPP-ANDROID VERSION -->
+                     
+                    <div class="isotope-item col-md-6 mb-5 webapp mobileapp">
+						<div class="card project-card">
+							<div class="row">
+								<div class="col-12 col-xl-5 card-img-holder">
+									<img src="assets_1/images/voteapp-Android.png" class="card-img" alt="image">
+								</div>
+								<div class="col-12 col-xl-7">
+									<div class="card-body">
+										<h5 class="card-title"><a href="https://github.com/firewalker02/voteapp-Android-version" class="theme-link">VoteApp Project-Web version</a></h5>
+										<p class="card-text">Developing an Android voting app enabling the client to create voting polls and share to other users to vote, using java and Android Studio.</p>
+ </p>
+										<p class="card-text"><small class="text-muted">Client: Toupesu</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="https://github.com/firewalker02/voteapp-Android-version">View GitHub Repository</a>
+								<div class="link-mask-text">
+									<a class="btn btn-primary btn-lg" href="https://github.com/firewalker02/voteapp-Android-version" >
+										<i class="fas fa-eye me-2"></i> View Github Repository
+									</a>
+                                   
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+               
+
+                
+                </div><!--//row-->
 			
 		    </div>
 	    </section>
@@ -341,10 +417,15 @@
     <script src="assets_1/plugins/popper.min-2-9-2.js"></script> 
 	<script src="assets_1/plugins/bootstrap/js/bootstrap.min.js"></script>
 	
-	<script src="assets_1/plugins/tiny-slider/min/tiny-slider.js"></script>
-	<script src="assets_1/js/testimonials.js"></script>
+	
 
-	<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <!-- JAVASCRIPT RESPONSIVE PROPERTIES -->
+	<script type="text/javascript" src="assets_1/plugins/imagesloaded.pkgd.min.js"></script> 
+    <script type="text/javascript" src="assets_1/plugins/isotope.pkgd.min.js"></script> 
+    
+    <script type="text/javascript" src="assets_1/js/isotope-custom.js"></script>
+    
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
 	<script src="assets_1/js/demo/style-switcher.js"></script>
 	
 	<!-- Dark Mode -->
