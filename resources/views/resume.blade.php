@@ -24,8 +24,11 @@
 </head> 
 
 <body>
-	<!-- DEMO ONLY --> 
+	
 	<div class="demo-banner px-2 py-3 text-white text-center font-weight-bold bg-primary">URSANNE RESUME<br class="d-lg-none">
+	</div>
+	<div class="text-center">
+		<a class="theme-link" href="https://voteapp.toupesu.com/portfolio"> PORTFOLIO WEBSITE</a>
 	</div>
 	
 	<div class="main-wrapper">

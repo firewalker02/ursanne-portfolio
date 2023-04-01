@@ -24,4 +24,16 @@ class FullController extends Controller
         return \view('projects');
     }
 
+    public function contact(){
+        return \view('contact');
+    } 
+    
+    public function hire(){
+        return \view('contact');
+    }
+
+    public function send(Request $request){
+        
+        return \redirect('/otherhome')->with('flashMessage',"Your message has been successfully transmitted to Ursanne.");
+    }
 }

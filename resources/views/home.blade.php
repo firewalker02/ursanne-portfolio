@@ -1,3 +1,4 @@
+@include('flash')
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
@@ -7,8 +8,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="DevCard Bootstrap 5 Template">
-	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	 
 	<link rel="shortcut icon" href="favicon.ico"> 
 	
 	<!-- Google Fonts -->
@@ -30,7 +30,7 @@
 	
 	<header class="header text-center">	    
 		<div class="force-overflow">
-			<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Ursanne Kengne</a></h1>
+			<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="#">Ursanne Kengne</a></h1>
 			
 			<nav class="navbar navbar-expand-lg navbar-dark" >
 				
@@ -42,12 +42,12 @@
 					<div class="profile-section pt-3 pt-lg-0">
 						<img class="profile-image mb-3 rounded-circle mx-auto" src="assets_1/images/ursanne_photo.jpg" alt="image" >			
 						
-						<div class="bio mb-3">Hi, my name is Ursanne Kengne. I am a current Computer Science student at York University. I have been learning computer Science for three years already. To learn more about me, I invite you to follow the links below.<br><a href="{{route('homeport')}}">Find out more about me</a></div><!--//bio-->
+						<div class="bio mb-3">Hi, my name is Ursanne Kengne. I am a current Computer Science student at York University. I have been learning computer Science for three years already. To learn more about me, I invite you to follow the links below.<br><a href="{{route('aboutMe')}}">Find out more about me</a></div><!--//bio-->
 						<ul class="social-list list-inline py-2 mx-auto">
 						<li class="list-inline-item"><a href="https://twitter.com/Firewalker_02"><i class="fab fa-twitter fa-fw"></i></a></li>
 			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/ursangk/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
 			            <li class="list-inline-item"><a href="https://github.com/firewalker02"><i class="fab fa-github-alt fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://stackoverflow.com/users/21540162/firewalker-02"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
 							<li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
 						</ul><!--//social-list-->
 						<hr> 
@@ -55,10 +55,10 @@
 					
 					<ul class="navbar-nav flex-column text-start">
 						<li class="nav-item">
-							<a class="nav-link active" href="{{route('homeport')}}"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
+							<a class="nav-link active" href="{{route('aboutMe')}}"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Projects</a>
+							<a class="nav-link" href="{{route('project')}}"><i class="fas fa-laptop-code fa-fw me-2"></i>Projects</a>
 						</li>
 						<!-- <li class="nav-item">
 							<a class="nav-link" href="services.html"><i class="fas fa-briefcase fa-fw me-2"></i>Services &amp; Pricing</a>
@@ -70,7 +70,7 @@
 							<a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw me-2"></i>Blog</a>
 						</li> -->
 						<li class="nav-item">
-							<a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw me-2"></i>Contact</a>
+							<a class="nav-link" href="{{route('contact')}}"><i class="fas fa-envelope-open-text fa-fw me-2"></i>Contact</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -86,7 +86,7 @@
 					</ul>
 					
 					<div class="my-2">
-						<a class="btn btn-primary" href="#" target="_blank"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
+						<a class="btn btn-primary" href="{{route('hire')}}" target="_blank"><i class="fas fa-paper-plane me-2"></i>Hire Me</a>
 					</div>
 					
 	
@@ -112,11 +112,11 @@
 					<div class="col">
 						<h2 class="name font-weight-bold mb-1">Ursanne Kengne</h2>
 						<div class="tagline mb-3">Entry Level Software Developer</div>
-						<div class="bio mb-4">I'm an entry-level software developer, proficient in back-end development. Want to know how I may help your project? Check out my projects <a class="text-link" href="projects.html">projects</a> and <a class="text-link" href="{{route('resume')}}">online resume</a>.
+						<div class="bio mb-4">I'm an entry-level software developer, proficient in back-end development. Want to know how I may help your project? Check out my projects <a class="text-link" href="{{route('project')}}">projects</a> and <a class="text-link" href="{{route('resume')}}">online resume</a>.
 						</div><!--//bio-->
 						<div class="mb-4">
-							<a class="btn btn-primary me-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right me-2"></i><span class="d-none d-md-inline">View</span> Projects</a>
-							<a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt me-2"></i><span class="d-none d-md-inline">View</span> Resume</a>
+							<a class="btn btn-primary me-2 mb-3" href="{{route('project')}}"><i class="fas fa-arrow-alt-circle-right me-2"></i><span class="d-none d-md-inline">View</span> Projects</a>
+							<a class="btn btn-secondary mb-3" href="{{route('resume')}}"><i class="fas fa-file-alt me-2"></i><span class="d-none d-md-inline">View</span> Resume</a>
 						</div>
 					</div><!--//col-->
 					
@@ -130,7 +130,7 @@
 		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
-				<div class="section-intro mb-5">I have 2 years building Android applications using Android Studio and Java, and also skilled in building web applications using PHP laravel framework . Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a class="text-link" href="{{route('resume')}}">online resume</a> and <a class="text-link" href="portfolio.html">project portfolio</a>.</div>
+				<div class="section-intro mb-5">I have 2 years building Android applications using Android Studio and Java, and also skilled in building web applications using PHP laravel framework . Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a class="text-link" href="{{route('resume')}}">online resume</a> and <a class="text-link" href="{{route('project')}}">project portfolio</a>.</div>
 				<div class="row">
 					<div class="item col-6 col-lg-3">
 						<div class="item-inner">
