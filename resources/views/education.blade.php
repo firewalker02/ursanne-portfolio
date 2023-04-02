@@ -160,21 +160,23 @@
 						<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets_1/images/voteapp-Android.png" class="card-img" alt="image">
+									<img src="assets_1/images/saint.jpg" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="https://www.inovedu.net/schooldetail/1070/fr/college-catholique-bilingue-saint-benoit"class="theme-link"></a></h5>
-										<p class="card-text">Developing an Android voting app enabling the client to create voting polls and share to other users to vote, using java and Android Studio</p>
-										<p class="card-text"><small class="text-muted">Client: Toupesu</small></p>
+										<h5 class="card-title"><a href="https://www.inovedu.net/schooldetail/1070/fr/college-catholique-bilingue-saint-benoit"class="theme-link"></a>Saint Benedict College</h5>
+										<p class="card-text">Graduated in a 2 years' time applied Mathematics and Physics Secondary School Program from Saint Benedict College. The 
+                                            curriculum started from September 2018 to November 2020, during which I earned my GCE Advanced Level
+                                        </p>
+										<p class="card-text"><large class="text-visible"> Sept 2018-Jan 2020 : Yaounde,Cameroon</small></large>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class=" theme-link link-mask-link" href="https://github.com/firewalker02/voteapp-Android-version"> View Github repository</a>
+								<a class=" theme-link link-mask-link" href="https://www.inovedu.net/schooldetail/1070/fr/college-catholique-bilingue-saint-benoit"> Get to Know Saint Benedict</a>
 								<div class="link-mask-text">
-									<a class="btn btn-primary" href="https://github.com/firewalker02/voteapp-Android-version">
-										<i class="fas fa-eye me-2"></i>View Github repository
+									<a class="btn btn-primary" href="https://www.inovedu.net/schooldetail/1070/fr/college-catholique-bilingue-saint-benoit">
+										<i class="fas fa-eye me-2"></i>Get to know Saint Benedict
 									</a>
 								</div>
 							</div><!--//link-mask-->
