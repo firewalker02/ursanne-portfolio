@@ -1,4 +1,4 @@
-@include('flash')
+ @include('flash')
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
@@ -127,10 +127,49 @@
 			</div>
 		</section><!--//about-me-section-->
 		
+		<!-- ABOUT ME SECTION -->
+
+		<section class="overview-section p-3 p-lg-5">
+			<div class="container">
+				<h2 class="section-title font-weight-bold mb-3">About Me</h2>
+				<div class="section-intro mb-5">
+					
+				My name is Ursanne Kengne, student at York University majoring in Computer Science. I am currently 20 years old. When young, I quickly realize my abilities and passion for the computer World and innovative technologies which brings to me to the conclusion to study Computer Science after graduating from High School. Willing to learn the best current software and hardware technologies, I decided to pursue my studies in Computer Science at York University, Canada.
+                     I have research interest in software programming, improvement in the interaction of  databases between client and server in programming environments and analysis in improvement of algorithms using dynamic programming. In the course of my academic journey, I have set the goal to achieve a PHD thesis in data Science and artificial intelligence(AI).
+                    
+                    I invite you to discover my website to learn other aspects of me. Want to find out more about my experience? Check out my <a class="text-link" href="{{route('resume')}}">online resume</a> and <a class="text-link" href="{{route('project')}}">project portfolio</a>.</div>
+</section>
+
+<div class="container"><hr></div>
+
+
+
+
+<!-- GOALS SECTION -->
+
+<section class="overview-section p-3 p-lg-5">
+			<div class="container">
+				<h2 class="section-title font-weight-bold mb-3">Goals&amp; Objectives</h2>
+				<div class="section-intro mb-5">
+					As mentioned before, my main objectives entails pursuing my academic journey to obtain my bachelor degree, and then later on  follow a Masters and PHD program research on Artificial Intelligence. 
+					My dream as an individual is to be an instructor at the undergraduate, graduate and post-graduate level, to convey my coding skills to other potential students, as well as being in Enterprise to apply my current 
+					skills, and improve them. 
+                    I strongly believe <a class="text-link" href="{{route('education')}}">Education</a> is the Key for a better World as "Those who do not remember the past are condemned to repeat it".
+                    Nevertheless, I invite you to discover my educational journey and project portfolio which aligns with my goals through the following links.Check out my <a class="text-link" href="{{route('education')}}">educational journey</a> and <a class="text-link" href="{{route('project')}}">project portfolio</a>.</div>
+</section>
+
+<div class="container"><hr></div>
+
+
+
+
+<!-- WHAT I DO SECTION -->
+
 		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
 				<div class="section-intro mb-5">I have 2 years building Android applications using Android Studio and Java, and also skilled in building web applications using PHP laravel framework . Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a class="text-link" href="{{route('resume')}}">online resume</a> and <a class="text-link" href="{{route('project')}}">project portfolio</a>.</div>
+				
 				<div class="row">
 					<div class="item col-6 col-lg-3">
 						<div class="item-inner">
@@ -292,6 +331,13 @@
 		
 		<!-- <div class="container"><hr></div> -->
 		
+
+
+
+
+                      <!-- PROJECTS SECTION -->
+
+
 		<section class="featured-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
@@ -527,7 +573,8 @@
 			</ul>
 			<a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
 		</div><!--//panel-inner-->
-	</div>//configure-panel -->
+	<!-- </div> -->
+	<!--//configure-panel -->
 
 	<!-- Javascript -->
 	

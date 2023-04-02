@@ -20,4 +20,5 @@ Route::get('/contact',[FullController::class, 'contact'])->name('contact');
 Route::get('/otherhome',[FullController::class, 'otherHome'])->name('otherHome');
 Route::get('/projects',[FullController::class, 'project'])->name('project');
 Route::get('/hireMe',[FullController::class, 'hire'])->name('hire');
+Route::get('/education',[FullController::class, 'education'])->name('education');
 Route::post('/send',[FullController::class, 'send'])->name('send');

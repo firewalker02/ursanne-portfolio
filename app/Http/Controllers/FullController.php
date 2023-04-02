@@ -11,7 +11,7 @@ class FullController extends Controller
         return \view('mainhome');
     }
     public function aboutMe(){
-        return \view('aboutMe');
+        return \view('home');
     }
     public function resume(){
         return \view('resume');
@@ -27,7 +27,9 @@ class FullController extends Controller
     public function contact(){
         return \view('contact');
     } 
-    
+    public function education(){
+        return \view('education');
+    }
     public function hire(){
         return \view('contact');
     }
