@@ -43,11 +43,12 @@
 						
 						<div class="bio mb-3">Hi, my name is Ursanne Kengne. I am a current Computer Science student at York University. I have been learning computer Science for three years already. To learn more about me, I invite you to follow the links below.<br><a href="{{route('aboutMe')}}">Find out more about me</a></div><!--//bio-->
 						<ul class="social-list list-inline py-2 mx-auto">
-						<li class="list-inline-item"><a href="https://twitter.com/Firewalker_02"><i class="fab fa-twitter fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/ursangk/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="https://github.com/firewalker02"><i class="fab fa-github-alt fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="https://stackoverflow.com/users/21540162/firewalker-02"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+						<li class="list-item"><a href="https://twitter.com/Firewalker_02">   <i class="fab fa-twitter fa-fw"></i></a>Twitter</li><br>
+			            <li class="list-item">&nbsp;&nbsp;<a href="https://www.linkedin.com/in/ursangk/"><i class="fab fa-linkedin-in fa-fw"></i></a>Linkedln</li><br>
+			            <li class="list-item"><a href="https://github.com/firewalker02">     <i class="fab fa-github-alt fa-fw"></i></a>Github</li><br>
+						<li class="list-inline-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="https://stackoverflow.com/users/21540162/firewalker-02"><i class="fab fa-stack-overflow fa-fw"></i></a>stackoverflow</li>
+						<!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i>CodePen</a></li> -->
 						</ul><!--//social-list-->
 						<hr> 
 					</div><!--//profile-section-->

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>Ursanne-Education</title>
+	<title>Ursanne-Experience</title>
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -120,64 +120,59 @@
 
 <section class="featured-section p-3 p-lg-5">
 			<div class="container">
-				<h2 class="section-title font-weight-bold mb-5">Education</h2>
+				<h2 class="section-title font-weight-bold mb-5">Experience</h2>
 				<div class="row">
 					<div class="col-md-6 mb-5">
 					
-					<!-- YORKU -->
+					<!-- SDKGAMESAFRICA -->
 					<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets_1/images/yorku-logo.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/sdk.jpg" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="https://www.yorku.ca/" class="theme-link"> Candidate for BSc Honours, York University</a></h5>
-										<p class="card-text">Joined University as an Undergraduate student and was admitted into the Bachelor of Computer Science, Honours, 120 credit program, within lassonde School of Engineering. This program
-                                        is a 4-year one. I started since January 2021 with January 2025 as potential date for the completion of the program.
+										<h5 class="card-title"><a href="https://www.sdkgames.com/" class="theme-link"> Entry Level Software Developer-SDKGAMESAFRICA</a></h5>
+										<p class="card-text">Joined SDKGAMESAFRICA as a Software Developer where we develop web applications principally using PHP laravel framework,javaScript and BootStrap
                                         </p>
-										<p class="card-text"><large class="text-visible">Jan 2021-Present: Toronto, Canada</large></p>
+										<p class="card-text"><large class="text-visible">Jan 2023- Present: South Africa & US</large></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="theme-link" href="https://www.yorku.ca/"> Get to know YorkU</a>
+								<a class="theme-link" href="http://www.sdkgames.com//"> Get to know SDKGAMESAFRICA</a>
 								<div class="link-mask-text">
-								<a class="btn btn-primary btn-lg" href="https://www.yorku.ca/" >
-										<i class="fas fa-eye me-2"></i> Get to Know York University
+								<a class="btn btn-primary btn-lg" href="http://www.sdkgames.com//" >
+										<i class="fas fa-eye me-2"></i> Get to Know SDKGAMES AFRICA
 									</a>
-                                    <br> <br><br>
-                                    <a class="btn btn-primary" href="https://lassonde.yorku.ca">
-										<i class="fas fa-eye me-2"></i> Get to Know Lassonde School of Engineering.
-									</a>
+                                   
 								</div>
 							</div><!--//link-mask-->
 						</div><!--//card-->
 					</div><!--//col-->
 					
-					<!-- SAINT BENEDICT -->
+					<!-- UPS -->
 					
 					<div class="col-md-6 mb-5">	
 						<div class="card project-card">
 							<div class="row no-gutters">
 								<div class="col-12 col-xl-5 card-img-holder">
-									<img src="assets_1/images/saint.jpg" class="card-img" alt="image">
+									<img src="assets_1/images/ups.png" class="card-img" alt="image">
 								</div>
 								<div class="col-12 col-xl-7">
 									<div class="card-body">
-										<h5 class="card-title"><a href="https://www.inovedu.net/schooldetail/1070/fr/college-catholique-bilingue-saint-benoit"class="theme-link"></a>Saint Benedict College</h5>
-										<p class="card-text">Graduated in a 2 years' time applied Mathematics and Physics Secondary School Program from Saint Benedict College. The 
-                                            curriculum started from September 2018 to November 2020, during which I earned my GCE Advanced Level
+										<h5 class="card-title"><a href="https://www.ups.com/"class="theme-link"></a>Data Entry Clerk-UPS</h5>
+										<p class="card-text">Joined UPS as an entry level data clerk where I principally completed ad-hoc requests and made adjustments to postal-codes information using Excel.
                                         </p>
-										<p class="card-text"><large class="text-visible"> Sept 2018-Jan 2020 : Yaounde,Cameroon</small></large>
+										<p class="card-text"><large class="text-visible"> Sept 2022-Jan 2023 : Mississauga,Canada</small></large>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class=" theme-link link-mask-link" href="https://www.inovedu.net/schooldetail/1070/fr/college-catholique-bilingue-saint-benoit"> Get to Know Saint Benedict</a>
+								<a class=" theme-link link-mask-link" href="http://www.ups.com/"> Get to Know UPS</a>
 								<div class="link-mask-text">
-									<a class="btn btn-primary" href="https://www.inovedu.net/schooldetail/1070/fr/college-catholique-bilingue-saint-benoit">
-										<i class="fas fa-eye me-2"></i>Get to know Saint Benedict
+									<a class="btn btn-primary" href="http://www.ups.com/">
+										<i class="fas fa-eye me-2"></i>Get to know UPS
 									</a>
 								</div>
 							</div><!--//link-mask-->

@@ -42,13 +42,14 @@
 					<div class="profile-section pt-3 pt-lg-0">
 						<img class="profile-image mb-3 rounded-circle mx-auto" src="assets_1/images/ursanne_photo.jpg" alt="image" >			
 						
-						<div class="bio mb-3">Hi, my name is Ursanne Kengne. I am a current Computer Science student at York University. I have been learning computer Science for three years already. To learn more about me, I invite you to follow the links below.<br><a href="{{route('aboutMe')}}">Find out more about me</a></div><!--//bio-->
+						<div class="bio mb-3">Hi, my name is Ursanne Kengne. I am a current Computer Science student at York University. I have been learning computer Science for three years already. To learn more about me, I invite you to follow the links below.<br><a href="#about">Find out more about me</a></div><!--//bio-->
 						<ul class="social-list list-inline py-2 mx-auto">
-						<li class="list-inline-item"><a href="https://twitter.com/Firewalker_02"><i class="fab fa-twitter fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="https://www.linkedin.com/in/ursangk/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="https://github.com/firewalker02"><i class="fab fa-github-alt fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="https://stackoverflow.com/users/21540162/firewalker-02"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+						<li class="list-item"><a href="https://twitter.com/Firewalker_02">   <i class="fab fa-twitter fa-fw"></i></a>Twitter</li><br>
+			            <li class="list-item">&nbsp;&nbsp;<a href="https://www.linkedin.com/in/ursangk/"><i class="fab fa-linkedin-in fa-fw"></i></a>Linkedln</li><br>
+			            <li class="list-item"><a href="https://github.com/firewalker02">     <i class="fab fa-github-alt fa-fw"></i></a>Github</li><br>
+						<li class="list-inline-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="https://stackoverflow.com/users/21540162/firewalker-02"><i class="fab fa-stack-overflow fa-fw"></i></a>stackoverflow</li>
+						<!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i>CodePen</a></li> -->
 						</ul><!--//social-list-->
 						<hr> 
 					</div><!--//profile-section-->
@@ -77,8 +78,8 @@
 								<i class="fas fa-cogs fa-fw me-2"></i>More Pages
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Education</a></li>
-								<li><a class="dropdown-item" href="#">Experience</a></li>
+								<li><a class="dropdown-item" href="education">Education</a></li>
+								<li><a class="dropdown-item" href="experience">Experience</a></li>
 								<!-- <li><a class="dropdown-item" href="blog-home-alt.html">Blog Home 2</a></li>
 								<li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li> -->
 							</ul>
@@ -131,7 +132,7 @@
 
 		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
-				<h2 class="section-title font-weight-bold mb-3">About Me</h2>
+				<h2 class="section-title font-weight-bold mb-3"> <a id="about"> About Me</a> </h2>
 				<div class="section-intro mb-5">
 					
 				My name is Ursanne Kengne, student at York University majoring in Computer Science. I am currently 20 years old. When young, I quickly realize my abilities and passion for the computer World and innovative technologies which brings to me to the conclusion to study Computer Science after graduating from High School. Willing to learn the best current software and hardware technologies, I decided to pursue my studies in Computer Science at York University, Canada.

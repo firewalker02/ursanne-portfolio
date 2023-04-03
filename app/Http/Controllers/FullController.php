@@ -38,4 +38,8 @@ class FullController extends Controller
         
         return \redirect('/otherhome')->with('flashMessage',"Your message has been successfully transmitted to Ursanne.");
     }
+
+    public function experience(){
+        return \view('experience');
+    }
 }
