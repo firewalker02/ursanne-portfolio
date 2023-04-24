@@ -65,7 +65,7 @@
 							<a class="nav-link" href="services.html"><i class="fas fa-briefcase fa-fw me-2"></i>Services &amp; Pricing</a>
 						</li> -->
 						<li class="nav-item">
-							<a class="nav-link" href="{{route('resume')}}"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
+							<a class="nav-link" href="https://docs.google.com/document/d/15BQpWdoid6QL8M6r-AR6T0pkrSEOEk3H/edit?usp=sharing&ouid=100093265532362357373&rtpof=true&sd=true"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
 						</li>
 						<!-- <li class="nav-item">
 							<a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw me-2"></i>Blog</a>
@@ -113,11 +113,11 @@
 					<div class="col">
 						<h2 class="name font-weight-bold mb-1">Ursanne Kengne</h2>
 						<div class="tagline mb-3">Entry Level Software Developer</div>
-						<div class="bio mb-4">I'm an entry-level software developer, proficient in back-end development. Want to know how I may help your project? Check out my projects <a class="text-link" href="{{route('project')}}">projects</a> and <a class="text-link" href="{{route('resume')}}">online resume</a>.
+						<div class="bio mb-4">I'm an entry-level software developer, proficient in back-end development. Want to know how I may help your project? Check out my projects <a class="text-link" href="{{route('project')}}">projects</a> and <a class="text-link" href="https://docs.google.com/document/d/15BQpWdoid6QL8M6r-AR6T0pkrSEOEk3H/edit?usp=sharing&ouid=100093265532362357373&rtpof=true&sd=true">online resume</a>.
 						</div><!--//bio-->
 						<div class="mb-4">
 							<a class="btn btn-primary me-2 mb-3" href="{{route('project')}}"><i class="fas fa-arrow-alt-circle-right me-2"></i><span class="d-none d-md-inline">View</span> Projects</a>
-							<a class="btn btn-secondary mb-3" href="{{route('resume')}}"><i class="fas fa-file-alt me-2"></i><span class="d-none d-md-inline">View</span> Resume</a>
+							<a class="btn btn-secondary mb-3" href="https://docs.google.com/document/d/15BQpWdoid6QL8M6r-AR6T0pkrSEOEk3H/edit?usp=sharing&ouid=100093265532362357373&rtpof=true&sd=true"><i class="fas fa-file-alt me-2"></i><span class="d-none d-md-inline">View</span> Resume</a>
 						</div>
 					</div><!--//col-->
 
@@ -138,7 +138,7 @@
 				My name is Ursanne Kengne, student at York University majoring in Computer Science. I am currently 20 years old. When young, I quickly realize my abilities and passion for the computer World and innovative technologies which brings to me to the conclusion to study Computer Science after graduating from High School. Willing to learn the best current software and hardware technologies, I decided to pursue my studies in Computer Science at York University, Canada.
                      I have research interest in software programming, improvement in the interaction of  databases between client and server in programming environments and analysis in improvement of algorithms using dynamic programming. In the course of my academic journey, I have set the goal to achieve a PHD thesis in data Science and artificial intelligence(AI).
 
-                    I invite you to discover my website to learn other aspects of me by clicking <a class="theme-link" href="https://animoto.com/play/0jeyv0q6ZK60zRt6wYHtNg">here</a>. Want to find out more about my experience? Check out my <a class="text-link" href="{{route('resume')}}">online resume</a> and <a class="text-link" href="{{route('project')}}">project portfolio</a>.</div>
+                    I invite you to discover my website to learn other aspects of me by clicking <a class="theme-link" href="https://animoto.com/play/0jeyv0q6ZK60zRt6wYHtNg">here</a>. Want to find out more about my experience? Check out my <a class="text-link" href="https://docs.google.com/document/d/15BQpWdoid6QL8M6r-AR6T0pkrSEOEk3H/edit?usp=sharing&ouid=100093265532362357373&rtpof=true&sd=true">online resume</a> and <a class="text-link" href="{{route('project')}}">project portfolio</a>.</div>
                 Discover more on me by watching my about-me video below
 
                 <div class="text-center">
@@ -175,7 +175,7 @@
 		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
-				<div class="section-intro mb-5">I have 2 years building Android applications using Android Studio and Java, and also skilled in building web applications using PHP laravel framework . Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a class="text-link" href="{{route('resume')}}">online resume</a> and <a class="text-link" href="{{route('project')}}">project portfolio</a>.</div>
+				<div class="section-intro mb-5">I have 2 years building Android applications using Android Studio and Java, and also skilled in building web applications using PHP laravel framework . Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a class="text-link" href="https://docs.google.com/document/d/15BQpWdoid6QL8M6r-AR6T0pkrSEOEk3H/edit?usp=sharing&ouid=100093265532362357373&rtpof=true&sd=true">online resume</a> and <a class="text-link" href="{{route('project')}}">project portfolio</a>.</div>
 
 				<div class="row">
 					<div class="item col-6 col-lg-3">
