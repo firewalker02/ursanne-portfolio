@@ -124,6 +124,37 @@
 				<div class="row">
 					<div class="col-md-6 mb-5">
 
+
+                 <!-- TCR -->
+					<div class="card project-card">
+                        <div class="row no-gutters">
+                            <div class="col-12 col-xl-5 card-img-holder">
+                                <img src="assets_1/images/tcr.jpg" class="card-img" alt="image">
+                            </div>
+                            <div class="col-12 col-xl-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="https://www.tcr.ca/" class="theme-link"> IT System Administrator Intern - TCR</a></h5>
+                                    <p class="card-text">Joined TCR as an IT system Intern where I perform multi-tasking duties related to Computer systems and networks
+                                    </p>
+                                    <p class="card-text"><large class="text-visible">Jan 2024 - Present: Canada </large></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="link-mask">
+                            <a class="theme-link" href="https://www.tcr.ca//"> Get to know TCR</a>
+                            <div class="link-mask-text">
+                            <a class="btn btn-primary btn-lg" href="https://www.tcr.ca//" >
+                                    <i class="fas fa-eye me-2"></i> Get to Know TCR
+                                </a>
+
+                            </div>
+                        </div><!--//link-mask-->
+                    </div><!--//card-->
+                </div><!--//col-->
+
+
+
+
 					<!-- SDKGAMESAFRICA -->
 					<div class="card project-card">
 							<div class="row no-gutters">
@@ -135,14 +166,14 @@
 										<h5 class="card-title"><a href="https://www.sdkgames.com/" class="theme-link"> Entry Level Software Developer-SDKGAMESAFRICA</a></h5>
 										<p class="card-text">Joined SDKGAMESAFRICA as a Software Developer where we develop web applications principally using PHP laravel framework,javaScript and BootStrap
                                         </p>
-										<p class="card-text"><large class="text-visible">Jan 2023- Present: South Africa & US</large></p>
+										<p class="card-text"><large class="text-visible">Jan 2023- Present: South Africa</large></p>
 									</div>
 								</div>
 							</div>
 							<div class="link-mask">
-								<a class="theme-link" href="http://www.sdkgames.com//"> Get to know SDKGAMESAFRICA</a>
+								<a class="theme-link" href="https://www.sdkgames.com//"> Get to know SDKGAMESAFRICA</a>
 								<div class="link-mask-text">
-								<a class="btn btn-primary btn-lg" href="http://www.sdkgames.com//" >
+								<a class="btn btn-primary btn-lg" href="https://www.sdkgames.com//" >
 										<i class="fas fa-eye me-2"></i> Get to Know SDKGAMES AFRICA
 									</a>
 
